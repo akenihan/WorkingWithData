@@ -17,6 +17,12 @@ ascending order, and within that, order by `Title`
 SELECT * FROM Album ORDER BY ArtistId, Title;
 
 /*
+Order all of the `Album` records by the `ArtistId` field in 
+ascending order, and within that, order by `Title`in descending order
+*/
+SELECT * FROM Album ORDER BY ArtistId, Title DESC;
+
+/*
 Select the Track name and the Album title and order them
 by the Album title, and then by the track name
 */
